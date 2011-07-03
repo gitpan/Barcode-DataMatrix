@@ -3,7 +3,7 @@ use Any::Moose;
 use Any::Moose '::Util::TypeConstraints';
 use Barcode::DataMatrix::Engine ();
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 has 'encoding_mode' => (
     is       => 'ro',
@@ -119,8 +119,7 @@ L<http://github.com/mstratman/Barcode-DataMatrix>
 
 =item L<HTML::Barcode::DataMatrix>
 
-=item L<http://grandzebu.net/index.php?page=/informatique/codbar-en/datamatrix.htm
->
+=item L<http://grandzebu.net/index.php?page=/informatique/codbar-en/datamatrix.htm>
 
 =item L<http://www.idautomation.com/datamatrixfaq.html>
 

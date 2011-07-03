@@ -27,4 +27,4 @@ resources:
     type: git
     url: git://github.com/mstratman/Barcode-DataMatrix.git
     web: http://github.com/mstratman/Barcode-DataMatrix/tree
-version: 0.01
+version: 0.02
