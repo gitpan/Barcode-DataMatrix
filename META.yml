@@ -4,11 +4,13 @@ author:
   - 'Mons Anderson C<< <inthrax@gmail.com> >> (GD::Barcode::DataMatrix at L<http://code.google.com/p/perl-ex/>, from which this distribution originates)'
   - 'Mark A. Stratman <stratman@gmail.com>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.36
+  Test::More: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.36
 distribution_type: module
-generated_by: 'Module::Install version 1.01'
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -22,10 +24,6 @@ no_index:
 requires:
   Any::Moose: 0.15
 resources:
-  homepage: http://github.com/mstratman/Barcode-DataMatrix/tree
   license: http://dev.perl.org/licenses/
-  repository:
-    type: git
-    url: git://github.com/mstratman/Barcode-DataMatrix.git
-    web: http://github.com/mstratman/Barcode-DataMatrix/tree
-version: 0.03
+  repository: https://github.com/mstratman/Barcode-DataMatrix.git
+version: 0.04

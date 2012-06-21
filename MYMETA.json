@@ -1,0 +1,52 @@
+{
+   "abstract" : "Generate data for Data Matrix barcodes",
+   "author" : [
+      "Mons Anderson C<< <inthrax@gmail.com> >> (GD::Barcode::DataMatrix at L<http://code.google.com/p/perl-ex/>, from which this distribution originates)",
+      "Mark A. Stratman <stratman@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.120630",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Barcode-DataMatrix",
+   "no_index" : {
+      "directory" : [
+         "inc",
+         "t",
+         "xt"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.36",
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.36"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Any::Moose" : "0.15"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "url" : "https://github.com/mstratman/Barcode-DataMatrix.git"
+      }
+   },
+   "version" : "0.04"
+}
